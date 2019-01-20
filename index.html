@@ -5,21 +5,27 @@
       <title>HW2</title>
   </head>
 <body>
+<section>
+<h1>HTML5 100A Week 2</h1>
 	<header>
-		<nav> 	<h4> 
+		<nav> 
 			<a href="index.html"><img src="images/home.png" alt="portfolio" width="30" height="30"></a> &nbsp;
 			<a href="things-to-do.html"><img src="images/smiley-berry.png" alt="Things to do" width="30" height="30"></a> &nbsp;
 			<a href="https://chanjessica.github.io/semantic-elements/" target="_blank"><img src="images/html5.png" alt="Semantic Elements" width="30" height="30"></a>
-		</h4>
+			<a href="mailto:jchan_sea@yahoo.com"><img src="images/envelope.png" alt="email to jchan_sea@yahoo.com" width="30" height="30"></a> 
 		</nav>
 	</header>
 <article>
-	<h2> Week 2 Reading Materials </h2>
+	<h2>  Reading Materials </h2>
 	<ol>
 		<li><a href="https://www.hongkiat.com/blog/html-5-semantics/" target="_blank">A Look into Proper HTML5 Semantics </a></li>
 		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" target="_blank">Images in HTML</a></li>
 		<li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">List of Semantic Elements in HTML5</a></li>
 	</ol>
+</article>
+<article>
+<h2> extra to read</h2>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines" target="_blank">Using HTML sections and outlines </a>
 </article>
 
 <aside>
@@ -28,7 +34,8 @@
 	<br>git add .
 	<br>git commit -m "...."
 	<br>git push
-	<br>git log --
+	<br>git log --oneline --decorate
+	<br>git remote -v
 	<br>cat .git/config 
 	</p>
 </aside>
@@ -36,33 +43,33 @@
 <aside>
 	<h4><a href="https://www.w3schools.com/tags/" target="_blank">Some HTML tags I should know:</a></h4>
 <pre>
-&lt;abbr&gt;       &lt;b&gt;            &lt;canvas&gt;        &lt;data&gt;          &lt;em&gt;          &lt;fieldset&gt;      &lt;h1&gt;-&lt;h6&gt;       &lt;i&gt;          &lt;kbd&gt;       &lt;label&gt;
-&lt;acronym&gt;    &lt;base&gt;         &lt;caion&gt;       &lt;datalist&gt;      &lt;embed&gt;       &lt;figcaion&gt;    &lt;head&gt;          &lt;iframe&gt;                 &lt;legend&gt;
-&lt;address&gt;    &lt;basefont&gt;     &lt;center&gt;        &lt;dd&gt;            &lt;figure&gt;      &lt;header&gt;        &lt;img&gt;           &lt;li&gt;
-&lt;applet&gt;     &lt;bdi&gt;          &lt;cite&gt;          &lt;del&gt;           &lt;font&gt;        &lt;hr&gt;            &lt;input&gt;         &lt;link&gt;
-&lt;area&gt;       &lt;bdo&gt;          &lt;code&gt;          &lt;details&gt;       &lt;footer&gt;      &lt;html&gt;          &lt;ins&gt;                    
-&lt;article&gt;    &lt;big&gt;          &lt;col&gt;           &lt;dfn&gt;           &lt;form&gt;                                        
-&lt;aside&gt;      &lt;blockquote&gt;   &lt;colgroup&gt;      &lt;dialog&gt;        &lt;frame&gt;                                        
-&lt;audio&gt;      &lt;body&gt;                         &lt;dir&gt;           &lt;frameset&gt;                                        
-             &lt;br&gt;                           &lt;div&gt;                                                            
-             &lt;button&gt;                       &lt;dl&gt;                                                            
-                                            &lt;dt&gt;                                                            
---------------------------------------------------------------------------------------------------------------------------------------------
-&lt;main&gt;      &lt;nav&gt;         &lt;object&gt;       &lt;p&gt;        &lt;q&gt;        &lt;rp&gt;        &lt;s&gt;           &lt;table&gt;        &lt;u&gt;        &lt;var&gt;        &lt;wbr&gt;
-&lt;map&gt;       &lt;noframes&gt;    &lt;ol&gt;           &lt;param&gt;               &lt;rt&gt;        &lt;samp&gt;        &lt;tbody&gt;        &lt;ul&gt;       &lt;video&gt;        
-&lt;mark&gt;      &lt;noscri&gt;    &lt;ogroup&gt;     &lt;picture&gt;             &lt;ruby&gt;      &lt;scri&gt;      &lt;td&gt;                        
-&lt;meta&gt;                    &lt;oion&gt;       &lt;pre&gt;                             &lt;section&gt;     &lt;template&gt;                        
-&lt;meter&gt;                   &lt;output&gt;       &lt;progress&gt;                        &lt;select&gt;      &lt;textarea&gt;                        
-                                                                           &lt;small&gt;       &lt;tfoot&gt;                       
-                                                                           &lt;source&gt;      &lt;th&gt;                        
-                                                                           &lt;span&gt;        &lt;thead&gt;                        
-                                                                           &lt;strike&gt;      &lt;time&gt;                        
-                                                                           &lt;strong&gt;      &lt;title&gt;                        
-                                                                           &lt;style&gt;       &lt;tr&gt;                        
-                                                                           &lt;sub&gt;         &lt;track&gt;                        
-                                                                           &lt;summary&gt;     &lt;tt&gt;                        
-                                                                           &lt;sup&gt;                                
-                                                                           &lt;svg&gt;                                
+   &lt;a&gt;          &lt;b&gt;           *&lt;canvas&gt;        &lt;data&gt;          &lt;em&gt;         *&lt;fieldset&gt;     *&lt;h1&gt;-&lt;h6&gt;       &lt;i&gt;          &lt;kbd&gt;       &lt;label&gt;
+   &lt;abbr&gt;       &lt;base&gt;         &lt;caption&gt;       &lt;datalist&gt;      &lt;embed&gt;      *&lt;figcaption&gt;    &lt;head&gt;          &lt;iframe&gt;                 &lt;legend&gt;
+   &lt;acronym&gt;    &lt;basefont&gt;     &lt;center&gt;       *&lt;dd&gt;                         *&lt;figure&gt;       *&lt;header&gt;        &lt;img&gt;                   *&lt;li&gt;
+  *&lt;address&gt;    &lt;bdi&gt;          &lt;cite&gt;          &lt;del&gt;                         &lt;font&gt;         *&lt;hggroup&gt;       &lt;input&gt;                  &lt;link&gt;
+   &lt;applet&gt;     &lt;bdo&gt;          &lt;code&gt;         *&lt;details&gt;                    *&lt;footer&gt;       *&lt;hr&gt;            &lt;ins&gt;                    
+   &lt;area&gt;       &lt;big&gt;          &lt;col&gt;           &lt;dfn&gt;                        *&lt;form&gt;          &lt;html&gt;                              
+  *&lt;article&gt;   *&lt;blockquote&gt;   &lt;colgroup&gt;      &lt;dialog&gt;                      &lt;frame&gt;                                        
+  *&lt;aside&gt;      &lt;body&gt;                         &lt;dir&gt;                         &lt;frameset&gt;                                        
+   &lt;audio&gt;      &lt;br&gt;                          *&lt;div&gt;                                                            
+                &lt;button&gt;                      *&lt;dl&gt;                                                            
+                                              *&lt;dt&gt;                                                            
+   --------------------------------------------------------------------------------------------------------------------------------------------
+  *&lt;main&gt;     *&lt;nav&gt;         &lt;object&gt;      *&lt;p&gt;        &lt;q&gt;        &lt;rp&gt;        &lt;s&gt;          *&lt;table&gt;        &lt;u&gt;        &lt;var&gt;        &lt;wbr&gt;
+   &lt;map&gt;       &lt;noframes&gt;   *&lt;ol&gt;           &lt;param&gt;               &lt;rt&gt;        &lt;samp&gt;        &lt;tbody&gt;       *&lt;ul&gt;       &lt;video&gt;        
+   &lt;mark&gt;      &lt;noscript&gt;    &lt;optgroup&gt;     &lt;picture&gt;             &lt;ruby&gt;      &lt;scri&gt;        &lt;td&gt;                        
+   &lt;meta&gt;                    &lt;option&gt;      *&lt;pre&gt;                            *&lt;section&gt;     &lt;template&gt;                        
+   &lt;meter&gt;                   &lt;output&gt;       &lt;progress&gt;                        &lt;select&gt;      &lt;textarea&gt;                        
+                                                                              &lt;small&gt;       &lt;tfoot&gt;                       
+                                                                              &lt;source&gt;      &lt;th&gt;                        
+                                                                              &lt;span&gt;        &lt;thead&gt;                        
+                                                                              &lt;strike&gt;      &lt;time&gt;                        
+                                                                              &lt;strong&gt;      &lt;title&gt;                        
+                                                                              &lt;style&gt;       &lt;tr&gt;                        
+                                                                              &lt;sub&gt;         &lt;track&gt;                        
+                                                                              &lt;summary&gt;     &lt;tt&gt;                        
+                                                                              &lt;sup&gt;                                
+                                                                              &lt;svg&gt;                                
 
 											</pre>
 
@@ -74,6 +81,7 @@
 	<a href="https://github.com/login" target="_blank">github login</a>|
 	<a href="https://codenvy.io/site/login" target="_blank">codenvy</a>|
 	<a href="http://validator.w3.org/" target="_blank">Code Validator</a>|
+	<a href="https://gsnedders.html5.org/outliner/" target="_blank">html5outliner</a>|
 	<a href="https://www.w3.org/WhatIs.html" target="_blank">HTML</a> |
 	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Elemets</a>|
 	<a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">HTML5</a> |
@@ -87,6 +95,6 @@
 	</nav>
 		
 </footer>	 
-
+</section>
 </body>
 </html>
