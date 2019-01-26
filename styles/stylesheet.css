@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+body {	
+      background-color: lightgreen;
+      font-family: georgia, serif, Georgia, 'Times New Roman', Times;
+      font-size: 11pt;
+}
+#wk{  font-size: 20pt; 
+     color: greenyellow;
+}
+.important { color:red;}
+.important:hover {
+                  color:orange;
+                  background:red; 
+}
+.violet { color: purple  ; }
+.brown { color: Chocolate  ;}
+h1 {
+     text-align:center; 
+     color: purple; 
+    background-color:darkorange; 
+     padding-top: 10px ;
+     width: 700px ; 
+     height: 50px;
+     margin-top: 20px;
+     margin-left: 100px;
+     float: left; 
+}
+h2 { color : purple; }
+h3 { color:  peru; }
+nav { background-color: black; }
+header nav { 
+            border: 1px;
+            border-style: solid ;
+            border-color: black;
+            background-color: gold; 
+            text-align:right;  
+}
+footer nav { 
+            border: 2px ;
+            border-style: solid;
+            border-color: black;
+            text-align:center;
+            background: pink    ; 
+            font-size: 80%; border: 2px; 
+}
+p { 
+    text-indent: 25px; 
+    text-align: justify;
+}
+dt { padding-left: 25px; }
+a:link { 
+        color: #3366ff; 
+        text-decoration: underline; 
+}
+a:visited { color:white; }
+a:hover {  background: yellow; }
+a:active {  color:red; }
+li {
+    list-style-type:none;
+    color: #3366ff; 
+}
+img { 
+      border: 4px;
+      color: orange ;
+      border-style: solid ;
+    /*  margin: 0px;  */
+}
+nav img {
+         margin: 0 10px 0 0;
+         padding: 2px;
+         width: 40px;
+         height: 40px;
+         border-radius: 25px;
+}
+figcaption {
+    color:darkgrey;
+    margin-left: -25px;
+}
+table {
+        margin-left: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 12pt;
+        color: darkslategray;
+        border-style: solid;
+        width: 500px;
+}
+th {
+    background: lightgrey;
+    border-bottom-style: ridge;
+}
+aside {
+    margin-top: 20px;
+    margin-left: 25px;
+}

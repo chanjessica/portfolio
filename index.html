@@ -2,85 +2,111 @@
 <html lang="en">
  <head>
    <meta charset="utf-8">
-      <title>HW2</title>
+      <title>HW3</title>
+	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
 <body>
 <section>
-<h1>HTML5 100A Week 2</h1>
-	<header>
+	<h1>HTML5 100A <span id="wk">Week 3</span>	</h1>
+		<header>
 		<nav> 
-			<a href="index.html"><img src="images/home.png" alt="portfolio" width="30" height="30"></a> &nbsp;
-			<a href="things-to-do.html"><img src="images/smiley-berry.png" alt="Things to do" width="30" height="30"></a> &nbsp;
-			<a href="https://chanjessica.github.io/semantic-elements/" target="_blank"><img src="images/html5.png" alt="Semantic Elements" width="30" height="30"></a>
-			<a href="mailto:jchan_sea@yahoo.com"><img src="images/envelope.png" alt="email to jchan_sea@yahoo.com" width="30" height="30"></a> 
+			<h4> 
+				<a href="index.html"><img src="images/home.png" alt="portfolio"></a> &nbsp;
+				<a href="things-to-do.html"> <img src="images/smiley-berry.png" alt="Things to do"></a> &nbsp;
+			<a href="https://chanjessica.github.io/semantic-elements/" target="_blank"><img src="images/html5.png" alt="Semantic Elements" ></a>
+			<a href="https://ilvhk2.github.io/HappyBowl/" target="_blank"> <img src="images/female.png" alt="https://ilvhk2.github.io/HappyBowl/" ></a>
+				<a href="mailto:jchan_sea@yahoo.com"><img src="images/envelope.png" alt="email to jchan_sea@yahoo.com" ></a> 			
+			</h4>
 		</nav>
 	</header>
-<article>
-	<h2>  Reading Materials </h2>
-	<ol>
-		<li><a href="https://www.hongkiat.com/blog/html-5-semantics/" target="_blank">A Look into Proper HTML5 Semantics </a></li>
-		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" target="_blank">Images in HTML</a></li>
-		<li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp" target="_blank">List of Semantic Elements in HTML5</a></li>
-	</ol>
-</article>
-<article>
-<h2> extra to read</h2>
-<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines" target="_blank">Using HTML sections and outlines </a>
-</article>
+	<article>
+		<h3>Learn to style HTML using CSS</h3>
+		<ol>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS" target="_blank">Introduction to CSS</a>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text" target="_blank">Styling text</a>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes" target="_blank">Styling boxes</a>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout" target="_blank">CSS layout</a>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Attribute_selectors" target="_blank">Attribute selectors</a>
+		<li><a href="https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp"  target="_blank">CSS box-sizing Property</a>
+		<li><a href="https://www.w3schools.com/cssref/css_units.asp" target="_blank">CSS Unit</a>
+		<li>CSS Specificity: <a href="https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/" target="_blank">Things You Should Know</a></li>
+		</ol>				
+	</article>
 
-<aside>
-	<h4>Some git Commands I should know <a href="https://github.com/joshnh/Git-Commands" target="_blank"><img src="images/Octocat.jpg" alt="git logo" width="30" height="30"> </a></h4>
-	<p>	git pull
-	<br>git add .
-	<br>git commit -m "...."
-	<br>git push
-	<br>git log --oneline --decorate
-	<br>git remote -v
-	<br>cat .git/config 
-	</p>
-</aside>
+	<article>
+		<h3>Selectors</h3>
+		<ul>
+		<li>selector { style-type: value;}</li>
+		<li>selector { </li>
+			<ul>
+			<li>style-type: value;</li>
+			<li>style-type: value;</li>
+		</ul>
+		<li>}</li>
+		</ul>
 
-<aside>
-	<h4><a href="https://www.w3schools.com/tags/" target="_blank">Some HTML tags I should know:</a></h4>
-<pre>
-   &lt;a&gt;          &lt;b&gt;           *&lt;canvas&gt;        &lt;data&gt;          &lt;em&gt;         *&lt;fieldset&gt;     *&lt;h1&gt;-&lt;h6&gt;       &lt;i&gt;          &lt;kbd&gt;       &lt;label&gt;
-   &lt;abbr&gt;       &lt;base&gt;         &lt;caption&gt;       &lt;datalist&gt;      &lt;embed&gt;      *&lt;figcaption&gt;    &lt;head&gt;          &lt;iframe&gt;                 &lt;legend&gt;
-   &lt;acronym&gt;    &lt;basefont&gt;     &lt;center&gt;       *&lt;dd&gt;                         *&lt;figure&gt;       *&lt;header&gt;        &lt;img&gt;                   *&lt;li&gt;
-  *&lt;address&gt;    &lt;bdi&gt;          &lt;cite&gt;          &lt;del&gt;                         &lt;font&gt;         *&lt;hggroup&gt;       &lt;input&gt;                  &lt;link&gt;
-   &lt;applet&gt;     &lt;bdo&gt;          &lt;code&gt;         *&lt;details&gt;                    *&lt;footer&gt;       *&lt;hr&gt;            &lt;ins&gt;                    
-   &lt;area&gt;       &lt;big&gt;          &lt;col&gt;           &lt;dfn&gt;                        *&lt;form&gt;          &lt;html&gt;                              
-  *&lt;article&gt;   *&lt;blockquote&gt;   &lt;colgroup&gt;      &lt;dialog&gt;                      &lt;frame&gt;                                        
-  *&lt;aside&gt;      &lt;body&gt;                         &lt;dir&gt;                         &lt;frameset&gt;                                        
-   &lt;audio&gt;      &lt;br&gt;                          *&lt;div&gt;                                                            
-                &lt;button&gt;                      *&lt;dl&gt;                                                            
-                                              *&lt;dt&gt;                                                            
-   --------------------------------------------------------------------------------------------------------------------------------------------
-  *&lt;main&gt;     *&lt;nav&gt;         &lt;object&gt;      *&lt;p&gt;        &lt;q&gt;        &lt;rp&gt;        &lt;s&gt;          *&lt;table&gt;        &lt;u&gt;        &lt;var&gt;        &lt;wbr&gt;
-   &lt;map&gt;       &lt;noframes&gt;   *&lt;ol&gt;           &lt;param&gt;               &lt;rt&gt;        &lt;samp&gt;        &lt;tbody&gt;       *&lt;ul&gt;       &lt;video&gt;        
-   &lt;mark&gt;      &lt;noscript&gt;    &lt;optgroup&gt;     &lt;picture&gt;             &lt;ruby&gt;      &lt;scri&gt;        &lt;td&gt;                        
-   &lt;meta&gt;                    &lt;option&gt;      *&lt;pre&gt;                            *&lt;section&gt;     &lt;template&gt;                        
-   &lt;meter&gt;                   &lt;output&gt;       &lt;progress&gt;                        &lt;select&gt;      &lt;textarea&gt;                        
-                                                                              &lt;small&gt;       &lt;tfoot&gt;                       
-                                                                              &lt;source&gt;      &lt;th&gt;                        
-                                                                              &lt;span&gt;        &lt;thead&gt;                        
-                                                                              &lt;strike&gt;      &lt;time&gt;                        
-                                                                              &lt;strong&gt;      &lt;title&gt;                        
-                                                                              &lt;style&gt;       &lt;tr&gt;                        
-                                                                              &lt;sub&gt;         &lt;track&gt;                        
-                                                                              &lt;summary&gt;     &lt;tt&gt;                        
-                                                                              &lt;sup&gt;                                
-                                                                              &lt;svg&gt;                                
+		<table>
+		<tr><th>CSS Selector Type</th><th>Examples</th></tr>
+		<tr class="violet">
+			<td rowspan="2">HTML Element Name		</td><td>p {}		</td>			
+		</tr>
+		<tr class="violet"><td>img{}</td></tr>
+		<tr class="brown">
+			<td>class</td><td>.class-name{}		</td>
+		</tr>
+		<tr class="violet">
+			<td>id</td><td>#id-name()		</td>
+		</tr>
+		<tr class="brown">
+			<td rowspan="4">pseudo-class | element</td><td> a:hover{}		</td>
+		</tr>
+		<tr class="brown"><td>input:focus{} </td></tr>
+		<tr class="brown"><td>p::first-letter{} </td></tr>
+		<tr class="brown"><td>li::first-child{} </td></tr>
+		<tr  class="violet">
+			<td rowspan="2">Element by Attribute</td><td>a[target]{}</td>
+		</tr>
+		<tr class="violet"><td>a[target="_blank"]{} </td></tr>
+		</table>
+	</article>
 
-											</pre>
+	<article>
+		<h3 class="important">Important to know CSS Order of Precedence </h3>
+		<ol>
+			<li><a href="https://docs.bmc.com/docs/ars1808/css-order-of-precedence-820499184.html" target="_blank">css order of precedence </a></li>
+			<li>Precedence in CSS <a href="https://css-tricks.com/precedence-css-order-css-matters/" target="_blank">(When Order of CSS Matters) </a></li>
+			<li><a href="https://stackoverflow.com/questions/25105736/what-is-the-order-of-precedence-for-css" target="_blank">what is the order of precedence for css </a></li>
+		</ol>
+	<article>
+	
+	<article>
+		<h3>CSS Reference</h3>
+		<ul>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Info. from Mozilla</a></li>
+			<li><a href="https://www.w3schools.com/css/default.asp" target="_blank">W3 School CSS Tutorial</a>	</li>
+			<li><a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">W3 School Color Names</a>	</li>
+			<li><a href="https://www.w3schools.com/css/css_border.asptarget="_blank">W3 School Border</a>	</li>
+		</ul>
 
-</aside>
+		<aside>
+				<a href="https://search.creativecommons.org/" target="_blank">search for images</a>
+		</aside>
+				
+	</article>
+
+		<h3>Browser</a>
+		 <p>
+		 <a href="https://www.getfilecloud.com/blog/2015/03/tech-tip-how-to-do-hard-refresh-in-browsers/" target="_blank">How to Hard Refresh</a>	 
+	</article>
+
 
 <footer>	
-	<nav> <small>|
+	<nav> |
 	<a href="https://apps.canvas.uw.edu/wayf" target="_blank">UW login</a>|
 	<a href="https://github.com/login" target="_blank">github login</a>|
 	<a href="https://codenvy.io/site/login" target="_blank">codenvy</a>|
 	<a href="http://validator.w3.org/" target="_blank">Code Validator</a>|
+	<a href="https://jigsaw.w3.org/css-validator/ target="_blank">CSS Validator</a>|
 	<a href="https://gsnedders.html5.org/outliner/" target="_blank">html5outliner</a>|
 	<a href="https://www.w3.org/WhatIs.html" target="_blank">HTML</a> |
 	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Elemets</a>|
@@ -90,10 +116,9 @@
 	<a href="https://flight-manual.atom.io/" target="_blank">ATOM</a> |	
 	<a href="https://uwpcefrontend-r7r1942.slack.com/" target="_blank">Slack</a>|
 	<a href="https://chanjessica.github.io/semantic-elements/" target="_blank">HW1</a>|
-	<a href="https://chanjessica.github.io/portfolio/">HW2</a>|
-	</small>
-	</nav>
-		
+	<a href="week2.html" target="_blank">HW2</a>|
+	<a href="index.html">HW3</a>|
+	</nav>		
 </footer>	 
 </section>
 </body>
