@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif,  Georgia, Times, 'Times New Roman', serif;
+}
+a:link { color: #00BFFF;
+		text-decoration: none;}
+
+/** TOP **/
+header{
+    background-color: deepskyblue;
+	color:white;
+    height:10em;
+    padding:10px 150px 35px ;  
+	}
+header h1 {
+	font-size: 3.5em;
+	height: 30px;
+}
+header h2{
+	font-style: italic;
+	width: 350px;
+}
+nav{ 
+	padding:1em 150px;
+	background-color: lightgray; 
+  }
+nav a:link{ 
+	font-weight: bold;
+    color: black;
+}
+/** LEFT SIDE **/
+section {
+	padding:1em 150px;
+    width: 50%;
+    float: left;
+}
+section h5{
+    color: deepskyblue;
+    font-size: 17px;
+}
+blockquote{
+            margin: 50px -5px;
+            color: lightskyblue;
+            font-size: 20px;
+}
+/** RIGHT SIDE **/
+aside{
+	padding-top:20px;
+	padding-bottom:40px;
+    width: 20%; 
+    float: left;
+	display:inline-block;
+}
+#extra-space{
+	margin-top:40px;
+}
+.cat-img {
+	margin-left:0;
+    margin-top: 50px;
+    width:280px;
+	height:auto;
+}
+
+/** BOTTOM **/
+footer{
+	clear:both;
+    color: white;
+    background-color: gray;
+    height: 300px;                                 
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+footer p{
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+footer img{
+    margin-bottom: 20px;
+}
+footer nav{
+	background-color: gray;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+footer a:link{ 
+    color: white; 
+    text-decoration: none;
+}
+
