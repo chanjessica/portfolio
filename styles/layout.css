@@ -43,7 +43,7 @@ blockquote{
             font-size: 20px;
 }
 /** RIGHT SIDE **/
-sidebar{
+aside {
 	padding-top:20px;
 	padding-bottom:40px;
     width: 20%; 
