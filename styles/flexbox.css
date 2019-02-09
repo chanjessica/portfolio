@@ -28,6 +28,12 @@ h1 {font-family: 'Merienda', cursive, serif;
 .fa-html5{
 	color: darkorange;
 }
+.fa-github{
+	color: purple;
+}
+.fa-envelope {
+	color: red;
+}
 img { 
       border: 4px;
       color: orange ;
