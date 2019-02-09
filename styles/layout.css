@@ -89,7 +89,7 @@ footer a:link{
 }
 
 .flex-container {
-  padding-left: 150px;
+  padding-left: 140px;
   display: flex;
   flex-wrap: wrap;
   background-color: inherit;
