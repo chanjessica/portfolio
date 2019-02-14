@@ -4,8 +4,12 @@ body {
 	font-family: 'Dekko', cursive, serif;
 	background-color:lightyellow;
 	}
+a:link{ 
+	text-decoration: none;
+}
 a:hover {
 	color: darkorange; 
+	text-decoration:underline;
 }
 /*   TOP  */
 .header-flex{
@@ -59,21 +63,24 @@ header img {
          border-radius: 25px;
 }
 /* CENTER */
-div {
-	clear:left;
-}
+
 div h3 {
 	margin: 0;
 	color: purple; 
+	/*  border:1px solid #333; */
 	}
-dd { margin-left: 10px; }
+dd { 
+	margin-left: 10px; 
+	margin-top:5px; 
+	/*	border:1px solid #333; */ 
+	}
 .flex-container {
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
+  justify-content: space-around;
   background-color: inherit;
-  /* justify-content: space-around; */
-  justify-content: space-evenly;
+	/*  border:1px solid #333; */
 }
 
 .flex-container > div {
@@ -83,6 +90,7 @@ dd { margin-left: 10px; }
   padding-left: 0;
   line-height: 15px;
   font-size: 1rem;
+	/*  border:1px solid #333; */
 }
 .flex-container > dd {
   display: flex;
@@ -93,15 +101,13 @@ dd { margin-left: 10px; }
 }
 /* BOTTOM */
 footer nav {  
-background-color: pink;
- width:100%; 
-   text-align: center;
-position: fixed; 
-bottom: 0; 
-
+	background-color: pink;
+	width:100%; 
+	text-align: center;
+	position: fixed; 
+	bottom: 0; 
 }
 footer a {
 	text-decoration: none;
 }
 
-s
