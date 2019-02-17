@@ -1,3 +1,4 @@
+	/* -- HW6 --*/
 @import url('https://fonts.googleapis.com/css?family=Dekko|Merienda|Rock+Salt');
 body { 
 	margin: 0;
@@ -11,20 +12,28 @@ a:hover {
 	color: darkorange; 
 	text-decoration:underline;
 }
-/*   TOP  */
+	/*--   TOP  --*/
 .header-flex{
+	height: 70px;
 	display:flex;
 	flex-direction: row;
 	background-color: gold;
 }
 .header-flex div{
-    width: 500px;
+	width: 500px;
+	position: absolute;
+	right: 20px;
 	background-color: inherit;
 	display:flex;
 	justify-content:flex-end;
 	align-items:center;
 }
-h1 {font-family: 'Merienda', cursive, serif;
+h1 { 
+	transition-property: font-size;
+	transition-duration: 4s;
+	transition-timing-function: ease-out;
+	/*transition-delay: 2s; */
+	font-family: 'Merienda', cursive, serif;
 	text-shadow: 4px 4px 4px #aaa;
      text-align:center; 
      color: purple; 
@@ -33,6 +42,10 @@ h1 {font-family: 'Merienda', cursive, serif;
      height: 45px;
      margin: 0;
      margin-left: 100px;
+}
+h1:hover {
+	color: yellow;
+	font-size: 3em;
 }
 .fa-home {
 	color: olive;
@@ -62,8 +75,8 @@ header img {
          height: 40px;
          border-radius: 25px;
 }
-/* CENTER */
 
+	/* CENTER */
 div h3 {
 	margin: 0;
 	color: purple; 
@@ -71,7 +84,7 @@ div h3 {
 	}
 dd { 
 	margin-left: 10px; 
-	margin-top:5px; 
+	margin-top:10px; 
 	/*	border:1px solid #333; */ 
 	}
 .flex-container {
@@ -82,24 +95,29 @@ dd {
   background-color: inherit;
 	/*  border:1px solid #333; */
 }
-
 .flex-container > div {
+	transition: font-size 2s ease-in;
   background-color: inherit;
   width: 30%;
-  margin-top: 5px;
-  padding-left: 0;
-  line-height: 15px;
-  font-size: 1rem;
-	/*  border:1px solid #333; */
-}
-.flex-container > dd {
-  display: flex;
-  flex-wrap: wrap;
-}
-.box{
   margin: 5px;
-}
-/* BOTTOM */
+  padding: 10px;
+  line-height: 15px;
+	/* border:1px solid #333; */
+	border-radius: 15px;
+	}
+/*  dt:first-child{color:white; font-weight:bold;}  */
+dt:nth-child(1){color:white; font-weight:bold; font-size: 1.1rem;}   /*  nth-child(1)=first-child  */
+/*
+.flex-container > div:nth-child(-n+3){    background:lightgreen;  }
+.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:lightgreen;}
+ */
+.flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:lightgrey;}
+.flex-container > div:not(:nth-child(6n+4)):not(:nth-child(6n+5)):not(:nth-child(6n+6)) { background-color:lightgreen;} 
+.flex-container > div:hover{ /*width:50%;*/ font-size:1.5rem;}
+.flex-container > div:nth-child(odd):hover{background-color:crimson;} 
+.flex-container > div:nth-child(even):hover{background-color: #f39c12;}
+
+	/* BOTTOM */
 footer nav {  
 	background-color: pink;
 	width:100%; 
@@ -110,4 +128,5 @@ footer nav {
 footer a {
 	text-decoration: none;
 }
-
+footer a:hover { font-size:1.5rem; color:red;}
+	
