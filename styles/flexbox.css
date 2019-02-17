@@ -9,7 +9,7 @@ a:link{
 	text-decoration: none;
 }
 a:hover {
-	color: darkorange; 
+	color: #e24406; 
 	text-decoration:underline;
 }
 	/*--   TOP  --*/
@@ -82,7 +82,7 @@ div h3 {
 	color: purple; 
 	/*  border:1px solid #333; */
 	}
-dt {color:white; } 
+dt {color:white;} 
 dd { 
 	margin-left: 10px; 
 	margin-top:10px; 
@@ -106,7 +106,6 @@ dd {
 	/* border:1px solid #333; */
 	border-radius: 15px;
 	}
-
 /*
 .flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:lightgrey;}
 .flex-container > div:not(:nth-child(6n+4)):not(:nth-child(6n+5)):not(:nth-child(6n+6)) { background-color:lightgreen;} 
@@ -114,9 +113,8 @@ dd {
 .flex-container > div:nth-child(1n){background-color:lightgreen;} 
 .flex-container > div:nth-child(2n){background-color:lightgrey;}
 .flex-container > div:hover{ /*width:50%;*/ font-size:1.5rem;}
-.flex-container > div:nth-child(odd):hover{background-color:crimson;} 
-.flex-container > div:nth-child(even):hover{background-color: #f39c12;}
-
+.flex-container > div:nth-child(odd):hover{background-color:#c4f2f1;} 
+.flex-container > div:nth-child(even):hover{background-color: #f49ef7;}
 
 	/* BOTTOM */
 footer nav {  
@@ -131,3 +129,4 @@ footer a {
 }
 footer a:hover { font-size:1.5rem; color:red;}
 	
+
