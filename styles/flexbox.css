@@ -82,6 +82,7 @@ div h3 {
 	color: purple; 
 	/*  border:1px solid #333; */
 	}
+dt {color:white; } 
 dd { 
 	margin-left: 10px; 
 	margin-top:10px; 
@@ -105,17 +106,17 @@ dd {
 	/* border:1px solid #333; */
 	border-radius: 15px;
 	}
-/*  dt:first-child{color:white; font-weight:bold;}  */
-dt:nth-child(1){color:white; font-weight:bold; font-size: 1.1rem;}   /*  nth-child(1)=first-child  */
+
 /*
-.flex-container > div:nth-child(-n+3){    background:lightgreen;  }
-.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:lightgreen;}
- */
 .flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:lightgrey;}
 .flex-container > div:not(:nth-child(6n+4)):not(:nth-child(6n+5)):not(:nth-child(6n+6)) { background-color:lightgreen;} 
+*/
+.flex-container > div:nth-child(1n){background-color:lightgreen;} 
+.flex-container > div:nth-child(2n){background-color:lightgrey;}
 .flex-container > div:hover{ /*width:50%;*/ font-size:1.5rem;}
 .flex-container > div:nth-child(odd):hover{background-color:crimson;} 
 .flex-container > div:nth-child(even):hover{background-color: #f39c12;}
+
 
 	/* BOTTOM */
 footer nav {  
