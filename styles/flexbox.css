@@ -97,7 +97,7 @@ dd {
 	/*  border:1px solid #333; */
 }
 .flex-container > div {
-	transition: font-size 2s ease-in;
+	transition: background 2s, font-size 5s;
   background-color: inherit;
   width: 30%;
   margin: 5px;
@@ -106,15 +106,25 @@ dd {
 	/* border:1px solid #333; */
 	border-radius: 15px;
 	}
-/*
+	
+	/*  hover do not work on div:not  ----
 .flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:lightgrey;}
 .flex-container > div:not(:nth-child(6n+4)):not(:nth-child(6n+5)):not(:nth-child(6n+6)) { background-color:lightgreen;} 
+.flex-container > div:hover{ background-color:crimson; font-size:1.5rem;}
 */
+  /* group of 3 */
+.flex-container > div:nth-child(-n+3){    background:lightgreen;  }
+.flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:lightgrey;}
+.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:lightgreen;}
+.flex-container > div:hover{ background-color:gold; font-size:1.5rem;}
+
+/*  checker-box  --- works ---
 .flex-container > div:nth-child(1n){background-color:lightgreen;} 
 .flex-container > div:nth-child(2n){background-color:lightgrey;}
-.flex-container > div:hover{ /*width:50%;*/ font-size:1.5rem;}
+.flex-container > div:hover{ background-color:white; font-size:1.5rem;}
 .flex-container > div:nth-child(odd):hover{background-color:#c4f2f1;} 
 .flex-container > div:nth-child(even):hover{background-color: #f49ef7;}
+*/
 
 	/* BOTTOM */
 footer nav {  
@@ -128,5 +138,3 @@ footer a {
 	text-decoration: none;
 }
 footer a:hover { font-size:1.5rem; color:red;}
-	
-
