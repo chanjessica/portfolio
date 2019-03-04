@@ -79,7 +79,7 @@ article{
 .three-col{
 	background:lightskyblue;
 	display: flex;
-	flex-flow: column ;
+	flex-flow: column wrap;
 	justify-content: space-around;
 	padding: 20px;
 }
@@ -89,7 +89,7 @@ article{
   padding: 10px;
   line-height: 15px;
   border:1px solid deepskyblue; 
-  line-height: 26pt;
+  line-height: 20pt;
 }
 
 footer{
