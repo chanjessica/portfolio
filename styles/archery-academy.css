@@ -8,7 +8,7 @@ dt { font-weight: bold; color:mediumslateblue;}
 #container {
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
-	grid-template-rows: 100px 50px 400px 400px 300px;
+	grid-template-rows: 100px 50px 400px 400px 300px; 
 	margin:0 auto;
 /*	border: 1px solid black;*/
 }
@@ -82,18 +82,22 @@ footer{
   /* border: 2px solid red;*/
     background-image: url(../images/footerImage.jpg);
     background-size: 100% 100%;
-		display: grid;
+	display: grid;
 	grid-template-columns: repeat(2,1fr);
 }
 #foot-div {
+	color:white;
 	grid-column: 1/2;
 }
+footer ul {list-style-type: none; }
+
 #foot-nav {
+	color:white;
 	grid-column: 2/3;
+	background: none; 
+	justify-self:end;
+	align-self:end;
 }
-footer ul {list-style-type: none;}
-footer nav {
-    background: none; 
-    justify-self:end;
-    align-self:end;
+footer a:link { 
+	color:white;
 }
