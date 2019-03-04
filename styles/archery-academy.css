@@ -79,7 +79,7 @@ article{
 .three-col{
 	background:lightskyblue;
 	display: flex;
-	flex-flow: column no-wrap;
+	flex-flow: column ;
 	justify-content: space-around;
 	padding: 20px;
 }
