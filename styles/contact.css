@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Dekko|Merienda|Rock+Salt');
+body { 
+	font-family: 'Dekko', cursive, serif;
+	background:lightgrey;
+	font-size: 1.1rem;
+}
+h2 {
+	margin-left: 0;
+	color: purple; 
+	margin-bottom:5px;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+fieldset {
+  margin-left: 100px ;
+  border: none;
+  /* margin-top: 5px; */
+}
+
+legend {   
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 20px; 
+}
+ 
+small {
+	padding-left: 5px;
+	font-weight: normal;
+	color:green;
+}
+
+/*  
+.number {color:violet; border: padding-top:10px;}
+.radio {	color: mediumorchid; }
+.checkboxes {	color: fuchsia; }
+.select {	color: orchid;}
+.comment {	color: plum;}
+*/
+.radio input {margin: 0 5px 0 20px;}
+.checkboxes  input { margin: 0 5px 0 20px; }
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left	: 50px;
+}
+button[type=submit] {
+  background-color: lightgreen;
+}
+button[type=reset] {
+  background-color: yellow;
+}

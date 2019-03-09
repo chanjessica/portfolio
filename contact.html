@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="styles/contact.css">
+</head>
+
+<body>
+<form method="get" action="action_page.php">
+<h2>Enter Your Contact Information:</h2>
+<fieldset class="contact">
+	First Name:<input type="text" name="fname"> Last Name: <input type="text" name="lname">
+	<p>Email: <input type="email" name="email">
+	<p>Phone: <input type="tel" name="phone">
+</fieldset>	
+
+<h2>Please provide your feedback:</h2>	 
+<fieldset class="number">
+<legend>Select your level  <small> (1=beginner 2=intermediate 3=advanced)</small> </legend>
+	Class Level: <input type="number" name="level" min="1" max="3" step="1" value="1"> 
+</fieldset>	
+
+<fieldset class="radio">
+<h3>Select your instructor:</h3>	
+		<input name="instructor-name" type="radio" value="anderson" checked>Anderson
+		<input name="instructor-name" type="radio" value="lee">Lee
+		<input name="instructor-name" type="radio" value="smith">Smith
+</fieldset>	
+ 
+<fieldset class="checkboxes">
+<h3>What do you like the about the instrutor <small> Check all that apply</small></h3>
+		<input name="like-instructor" type="checkbox" value="knowledge">knowledge
+		<input name="like-instructor" type="checkbox" value="informative">informative
+		<input name="like-instructor" type="checkbox" value="responsive">responsive
+		<input name="like-instructor" type="checkbox" value="ontime">on-time
+		<input name="like-instructor" type="checkbox" value="patient">patient
+		<input name="like-instructor" type="checkbox" value="knowledge">humour
+</fieldset>	
+
+<fieldset class="select">	
+<legend>Rate our school:</legend>
+	<select name="rating">
+		<option value="poor">poor</option>
+		<option value="fair">fair</option>
+		<option value="good">good</option>
+		<option value="excellent" selected>excellent</option>
+	</select>
+</fieldset>	
+		
+
+<fieldset class="comment">
+<legend>Comment:</legend>
+	<textarea name="comment" rows="4" cols="36">Enter comments here.</textarea>
+</fieldset>
+		
+
+<button type="submit" value="Submit">Submit</button>
+<button type="reset" value="Reset">Clear</button>
+
+</form>
+
+</body>
+</html>
