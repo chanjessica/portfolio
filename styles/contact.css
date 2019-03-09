@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dekko|Merienda|Rock+Salt');
-body { 
+body {
+    width: 800px;
+    margin:0 auto;
 	font-family: 'Dekko', cursive, serif;
 	background:lightgrey;
 	font-size: 1.1rem;
@@ -50,6 +52,7 @@ button {
   font-weight: bold;
   border-radius: 15px;
   margin-left	: 50px;
+  
 }
 button[type=submit] {
   background-color: lightgreen;
