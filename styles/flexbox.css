@@ -3,7 +3,7 @@
 body { 
 	margin: 0;
 	font-family: 'Dekko', cursive, serif;
-	background-color:#FFEFD5;
+	background-color: #006B00;  /* light green */
 	}
 .sr-only {
 	position: absulute;
@@ -122,9 +122,9 @@ dd {
 .flex-container > div:hover{ background-color:crimson; font-size:1.5rem;}
 */
   /* group of 3 */
-.flex-container > div:nth-child(-n+3){    background:#D1FFD1;  }
+.flex-container > div:nth-child(-n+3){    background:#FFEFD5;  }
 .flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:#DCDCDC;}  /* light grey */
-.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:#D1FFD1;}  /*light green*/
+.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:#FFEFD5;}  /*light yellow*/
 .flex-container > div:hover{ background-color:gold; font-size:1.5rem;}
 
 /*  checker-box  --- works ---
