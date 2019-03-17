@@ -3,7 +3,7 @@
 body { 
 	margin: 0;
 	font-family: 'Dekko', cursive, serif;
-	background-color:lightyellow;
+	background-color:#FFEFD5;
 	}
 .sr-only {
 	position: absulute;
@@ -15,6 +15,7 @@ body {
 }
 a:link{ 
 	text-decoration: none;
+	color:#4B0082;  /* indigo */
 }
 a:hover {
 	color: #e24406; 
@@ -90,7 +91,7 @@ div h3 {
 	color: purple; 
 	/*  border:1px solid #333; */
 	}
-dt {color:white;} 
+dt {color:#000;} 
 dd { 
 	margin-left: 10px; 
 	margin-top:10px; 
@@ -121,9 +122,9 @@ dd {
 .flex-container > div:hover{ background-color:crimson; font-size:1.5rem;}
 */
   /* group of 3 */
-.flex-container > div:nth-child(-n+3){    background:lightgreen;  }
-.flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:lightgrey;}
-.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:lightgreen;}
+.flex-container > div:nth-child(-n+3){    background:#D1FFD1;  }
+.flex-container > div:nth-child(6n+4),div:nth-child(6n+5),div:nth-child(6n+6) { background:#DCDCDC;}  /* light grey */
+.flex-container > div:nth-child(6n+7),div:nth-child(6n+8),div:nth-child(6n+9) { background:#D1FFD1;}  /*light green*/
 .flex-container > div:hover{ background-color:gold; font-size:1.5rem;}
 
 /*  checker-box  --- works ---
@@ -133,17 +134,23 @@ dd {
 .flex-container > div:nth-child(odd):hover{background-color:#c4f2f1;} 
 .flex-container > div:nth-child(even):hover{background-color: #f49ef7;}
 */
-
-	/* BOTTOM */
 footer nav {  
-	background-color: pink;
-	width:100%; 
+	background-color: #FFE5EA;
 	text-align: center;
-	position: fixed; 
-	bottom: 0; 
-	padding: 1 rem; /add for accessibility */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+	} 
+footer a:hover { font-size:1.5rem; color:#C20000;}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-footer a {
-	text-decoration: none;
+footer ul li {
+	display: inline; 
+	padding: 2rem;
+	margin-left: 1rem;
+	/* background: white; */
 }
-footer a:hover { font-size:1.5rem; color:red;}
